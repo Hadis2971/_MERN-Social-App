@@ -1,0 +1,15 @@
+#comments{
+    width: 70%;
+    margin: auto;
+    border: 0.05em solid #ccc;
+    height: 30em;
+    overflow: auto;
+}
+
+.comment-item{
+    width: "87%";
+    background-color: "#f2f2f2";
+    padding: "1.5%";
+    margin: "2.1% auto";
+}
+

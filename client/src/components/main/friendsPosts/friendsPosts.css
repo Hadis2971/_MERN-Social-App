@@ -1,0 +1,35 @@
+#friends-box{
+    position: relative;
+}
+
+#friends-posts-box{
+    position: absolute;
+    width: 70%;
+    height: 100vh;
+    left: 0;
+    border-right: 0.07em solid #ccc;
+}
+
+#add-friends-box{
+    position: absolute;
+    width: 30%;
+    height: 100vh;
+    right: 0;
+    box-sizing: border-box;
+    padding: 3%;
+}
+
+#posts{
+    width: 80%;
+    height: auto;
+    overflow: auto;
+    border: 0.07em solid #ccc;
+}
+
+.post-item{
+    background-color: "#f2f2f2"; 
+    padding: "3%";
+    margin-bottom: "1.7%";
+    cursor: "pointer";
+}
+
